@@ -1,0 +1,22 @@
+[
+  {
+    "ID": 1,
+    "NOMBRE_TRAINER": "Camilo",
+    "APELLIDOS_TRAINER": "Rodriguez"
+  },
+  {
+    "ID": 2,
+    "NOMBRE_TRAINER": "Silvia",
+    "APELLIDOS_TRAINER": "Moreno"
+  },
+  {
+    "ID": 3,
+    "NOMBRE_TRAINER": "Carlos",
+    "APELLIDOS_TRAINER": "Rueda"
+  },
+  {
+    "ID": 4,
+    "NOMBRE_TRAINER": "Karen",
+    "APELLIDOS_TRAINER": "Murillo"
+  }
+]

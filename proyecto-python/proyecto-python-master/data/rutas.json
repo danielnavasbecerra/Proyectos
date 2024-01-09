@@ -1,0 +1,95 @@
+[
+  {
+    "NOMBRE_RUTA": "Java",
+    "NOMBRE_TRAINER": "Camilo Rodriguez",
+    "Fundamentos de Programacion": "",
+    "Programacion Web": "",
+    "Programacion Formal": "",
+    "SGDB Principal": "",
+    "SGDB Alternativo": "",
+    "Backend": "",
+    "SALON": "ARTEMIS",
+    "HORARIO": "2:00 PM - 5:30 PM"
+  },
+  {
+    "NOMBRE_RUTA": "NetCore",
+    "NOMBRE_TRAINER": "Silvia Moreno",
+    "Fundamentos de Programacion": "",
+    "Programacion Web": "",
+    "Programacion Formal": "",
+    "SGDB Principal": "",
+    "SGDB Alternativo": "",
+    "Backend": "",
+    "SALON": "APOLO",
+    "HORARIO": "6:00 AM - 9:30 AM"
+  },
+  {
+    "NOMBRE_RUTA": "NodeJS",
+    "NOMBRE_TRAINER": "Carlos Rueda",
+    "Fundamentos de Programacion": "",
+    "Programacion Web": "",
+    "Programacion Formal": "",
+    "SGDB Principal": "",
+    "SGDB Alternativo": "",
+    "Backend": "",
+    "SALON": "SPUTNIK",
+    "HORARIO": "10:00 AM - 1:30 PM"
+  },
+  {
+    "NOMBRE_RUTA": "Ruta 1",
+    "NOMBRE_TRAINER": "Profesor 1",
+    "Fundamentos de Programacion": "Python",
+    "Programacion Web": "HTML",
+    "Programacion Formal": "Java",
+    "SGDB Principal": "Mysql",
+    "SGDB Alternativo": "MongoDb",
+    "Backend": "NetCore",
+    "SALON": "Sala 1",
+    "HORARIO": "10:00 AM - 12:00 PM"
+  },
+  {
+    "NOMBRE_RUTA": "JABA",
+    "NOMBRE_TRAINER": [
+      "Silvia",
+      "Moreno"
+    ],
+    "Fundamentos de Programacion": "Python",
+    "Programacion Web": "CSS",
+    "Programacion Formal": "Java",
+    "SGDB Principal": "Postgresql",
+    "SGDB Alternativo": "Mysql",
+    "Backend": "NodeJS",
+    "SALON": "ARTEMIS",
+    "HORARIO": "6:00 PM - 9:30 PM"
+  },
+  {
+    "NOMBRE_RUTA": "Ruby",
+    "NOMBRE_TRAINER": [
+      "Silvia",
+      "Moreno"
+    ],
+    "Fundamentos de Programacion": "Python",
+    "Programacion Web": "Bootstrap",
+    "Programacion Formal": "JavaScript",
+    "SGDB Principal": "MongoDb",
+    "SGDB Alternativo": "Postgresql",
+    "Backend": "Express",
+    "SALON": "SPUTNIK",
+    "HORARIO": "10:00 AM - 1:30 PM"
+  },
+  {
+    "NOMBRE_RUTA": "Platita",
+    "NOMBRE_TRAINER": [
+      "Karen",
+      "Murillo"
+    ],
+    "Fundamentos de Programacion": "Python",
+    "Programacion Web": "Bootstrap",
+    "Programacion Formal": "C#",
+    "SGDB Principal": "Mysql",
+    "SGDB Alternativo": "MongoDb",
+    "Backend": "NetCore",
+    "SALON": "SPUTNIK",
+    "HORARIO": "6:00 AM - 9:30 AM"
+  }
+]

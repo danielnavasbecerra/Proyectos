@@ -1,0 +1,18 @@
+[
+  {
+    "ID": 2,
+    "NOMBRE": "Pedro",
+    "APELLIDOS": "Navas Becerra",
+    "NOTA_TEORICA": 64.0,
+    "NOTA_PRACTICA": 100.0,
+    "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 123,
+    "NOMBRE": "DIego",
+    "APELLIDOS": "Contreras",
+    "NOTA_TEORICA": 0.0,
+    "NOTA_PRACTICA": 0.0,
+    "ESTADO": "NO APROBADO"
+  }
+]
