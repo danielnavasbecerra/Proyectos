@@ -91,5 +91,20 @@
     "Backend": "NetCore",
     "SALON": "SPUTNIK",
     "HORARIO": "6:00 AM - 9:30 AM"
+  },
+  {
+    "NOMBRE_RUTA": "Python",
+    "NOMBRE_TRAINER": [
+      "Camilo",
+      "Rodriguez"
+    ],
+    "Fundamentos de Programacion": "PSeInt",
+    "Programacion Web": "HTML",
+    "Programacion Formal": "Java",
+    "SGDB Principal": "Postgresql",
+    "SGDB Alternativo": "Mysql",
+    "Backend": "NodeJS",
+    "SALON": "APOLO",
+    "HORARIO": "2:00 PM - 5:30 PM"
   }
 ]

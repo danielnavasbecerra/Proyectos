@@ -14,5 +14,45 @@
     "NOTA_TEORICA": 0.0,
     "NOTA_PRACTICA": 0.0,
     "ESTADO": "NO APROBADO"
+  },
+  {
+    "ID": 321,
+    "NOMBRE": "Fabian",
+    "APELLIDOS": "Mantilla",
+    "NOTA_TEORICA": 0.0,
+    "NOTA_PRACTICA": 100.0,
+    "ESTADO": "NO APROBADO"
+  },
+  {
+    "ID": 3,
+    "NOMBRE": "Josue",
+    "APELLIDOS": "Navas Becerra",
+    "NOTA_TEORICA": 100.0,
+    "NOTA_PRACTICA": 100.0,
+    "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 54,
+    "NOMBRE": "Pepito",
+    "APELLIDOS": "Jaimes",
+    "NOTA_TEORICA": 100.0,
+    "NOTA_PRACTICA": 89.0,
+    "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 321,
+    "NOMBRE": "Fabian",
+    "APELLIDOS": "Mantilla",
+    "NOTA_TEORICA": 98.0,
+    "NOTA_PRACTICA": 23.0,
+    "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 8,
+    "NOMBRE": "Andres",
+    "APELLIDOS": "Gomez",
+    "NOTA_TEORICA": 80.0,
+    "NOTA_PRACTICA": 60.0,
+    "ESTADO": "APROBADO"
   }
 ]

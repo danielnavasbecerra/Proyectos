@@ -18,5 +18,15 @@
     "ID": 4,
     "NOMBRE_TRAINER": "Karen",
     "APELLIDOS_TRAINER": "Murillo"
+  },
+  {
+    "ID": 5,
+    "NOMBRE_TRAINER": "Camilo",
+    "APELLIDOS_TRAINER": "RodriguezRodriguez "
+  },
+  {
+    "ID": 6,
+    "NOMBRE_TRAINER": "Juan Diego",
+    "APELLIDOS_TRAINER": "Contreras"
   }
 ]

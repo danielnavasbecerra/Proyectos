@@ -6,7 +6,7 @@ from businnes.rutas import crear_rutas,listar_rutas,modificar_rutas
 from businnes.matriculas import asignar_camper_a_ruta, asignar_fechas_matricula, enlistar_matriculas
 from businnes.modulos import registrar_modulos, enlistar_modulos_bajo_rendimiento
 from businnes.reportes import listar_campers_inscritos, listar_campers_aprobados, listar_trainers
-
+# Hello guys, today I am going to show you the code of my project.
 # funtions
 def campers():      
     limpiar_pantalla()

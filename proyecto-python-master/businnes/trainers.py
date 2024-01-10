@@ -13,6 +13,7 @@ def load_trainers_json():
         print(f"Error al guardar el archivo: {e}")
 
 lista_trainers = load_trainers_json()
+
 contador_trainer = max(trainer['ID'] for trainer in lista_trainers) if lista_trainers else 0
 
 def crear_trainers():

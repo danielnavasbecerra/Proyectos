@@ -145,8 +145,6 @@ def modificar_campers():
         print(f"No se encontró un Camper con ID {buscar_id}.")
         
 
-
-
 def load_notas_json():
     try:
         with open(os.path.join("proyecto-python-master", "data", "notas.json"), 'r') as archivo_json:        
@@ -205,7 +203,6 @@ def registrar_notas():
         print("Camper no está Inscrito o ya esta Aprobado.")
 
 
-
 def guardar_json_notas():
     try:
       with open(os.path.join("proyecto-python-master", "data", "notas.json"), 'w') as archivo_json:
@@ -218,7 +215,6 @@ def guardar_json_notas():
     except Exception as e:
         print(f"Error desconocido: {e}")
         
-
 
 def crear_notas(id_camper, nota_teorica, nota_practica):
     for camper in lista_campers:
