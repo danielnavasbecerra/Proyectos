@@ -129,5 +129,21 @@
     "FECHA_INICIO": "",
     "FECHA_FINALIZACION": "",
     "SALON_ENTRENAMIENTO": ""
+  },
+  {
+    "ID": 98,
+    "MODULOS": "",
+    "NOMBRE": "xxxx\u00c7",
+    "APELLIDOS": "XXXX",
+    "DIRECCION": "XXXX",
+    "ACUDIENTE": "XXXXX",
+    "NRO_CELULAR": 6546464,
+    "NRO_FIJO": 65454,
+    "ESTADO": "APROBADO",
+    "NOMBRE_RUTA": "",
+    "EXPERTO_ENCARGADO": "",
+    "FECHA_INICIO": "",
+    "FECHA_FINALIZACION": "",
+    "SALON_ENTRENAMIENTO": ""
   }
 ]

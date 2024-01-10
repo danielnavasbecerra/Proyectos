@@ -22,6 +22,7 @@ def guardar_json():
 
 def asignar_camper_a_ruta():
     limpiar_pantalla()
+    lista_campers = load_campers_json()
     print("----------- Asignar Camper a Ruta -----------")
     
     listar_campers()

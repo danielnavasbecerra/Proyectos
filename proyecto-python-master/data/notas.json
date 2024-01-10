@@ -62,5 +62,13 @@
     "NOTA_TEORICA": 56.0,
     "NOTA_PRACTICA": 96.0,
     "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 98,
+    "NOMBRE": "xxxx\u00c7",
+    "APELLIDOS": "XXXX",
+    "NOTA_TEORICA": 98.0,
+    "NOTA_PRACTICA": 78.0,
+    "ESTADO": "APROBADO"
   }
 ]
