@@ -54,5 +54,13 @@
     "NOTA_TEORICA": 80.0,
     "NOTA_PRACTICA": 60.0,
     "ESTADO": "APROBADO"
+  },
+  {
+    "ID": 13,
+    "NOMBRE": "Tinoco",
+    "APELLIDOS": "Garcia",
+    "NOTA_TEORICA": 56.0,
+    "NOTA_PRACTICA": 96.0,
+    "ESTADO": "APROBADO"
   }
 ]

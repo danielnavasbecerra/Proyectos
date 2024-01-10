@@ -113,5 +113,21 @@
     "FECHA_INICIO": "",
     "FECHA_FINALIZACION": "",
     "SALON_ENTRENAMIENTO": ""
+  },
+  {
+    "ID": 13,
+    "MODULOS": "",
+    "NOMBRE": "Tinoco",
+    "APELLIDOS": "Garcia",
+    "DIRECCION": "xxx",
+    "ACUDIENTE": "Pedro",
+    "NRO_CELULAR": 654654,
+    "NRO_FIJO": 64964,
+    "ESTADO": "APROBADO",
+    "NOMBRE_RUTA": "",
+    "EXPERTO_ENCARGADO": "",
+    "FECHA_INICIO": "",
+    "FECHA_FINALIZACION": "",
+    "SALON_ENTRENAMIENTO": ""
   }
 ]

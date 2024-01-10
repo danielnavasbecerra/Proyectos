@@ -65,7 +65,7 @@ def registrar_modulos():
                 try:
                     nota_teorica = float(input("Ingrese la Nota teórica del camper: "))
                     nota_practica = float(input("Ingrese la Nota práctica del camper: "))
-                    nota_quices = float(input("Ingrese la Nota práctica del camper: "))
+                    nota_quices = float(input("Ingrese la Nota Promediada de los quices del camper: "))
                     calcular_nota_final(nota_teorica, nota_practica, nota_quices)
                     break
                 except ValueError:

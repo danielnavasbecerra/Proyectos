@@ -36,39 +36,40 @@ def asignar_camper_a_ruta():
             print(f"Estado: {camper['ESTADO']}")
             print(f"Nombre Ruta: {camper['NOMBRE_RUTA']}")
             
-        if camper["ESTADO"] == "APROBADO":                
-            print("\nSeleccione una ruta para el camper:")
-            listar_rutas()
+            if camper["ESTADO"] == "APROBADO":
+                             
+                print("\nSeleccione una ruta para el camper:")
+                listar_rutas()
 
-            id_ruta = numero_valido("Ingrese el número de la ruta que desea asignar: ")
-
-            if 1 <= id_ruta <= len(lista_rutas):
-                ruta = lista_rutas[id_ruta - 1]
+                id_ruta = numero_valido("Ingrese el número de la ruta que desea asignar: ")
+                
+                if 1 <= id_ruta <= len(lista_rutas):
+                    ruta = lista_rutas[id_ruta - 1]
                     
-                if verificar_capacidad_ruta(ruta):
-                    camper['ESTADO'] = "ASIGNADO"
-                    camper['NOMBRE_RUTA'] = ruta['NOMBRE_RUTA']
-                    camper['EXPERTO_ENCARGADO'] = ruta['NOMBRE_TRAINER']
-                    camper['SALON_ENTRENAMIENTO'] = ruta['SALON']
-                    print(f"Camper {camper['NOMBRE']} {camper['APELLIDOS']} asignado a la ruta '{ruta['NOMBRE_RUTA']}' exitosamente.")
-                    guardar_json()
-                    print("\nDatos del Camper:")
-                    print(f"ID: {camper['ID']}")
-                    print(f"Nombre: {camper['NOMBRE']}")
-                    print(f"Apellidos: {camper['APELLIDOS']}")
-                    print(f"Estado: {camper['ESTADO']}")
-                    print(f"Nombre Ruta: {camper['NOMBRE_RUTA']}")
-                    print(f"Experto Encargado: {camper['EXPERTO_ENCARGADO']}")
-                    print(f"Salon Entrenamiento: {camper['SALON_ENTRENAMIENTO']}")
-                    print(f"Fecha Inicio: {camper['FECHA_INICIO']}")
-                    print(f"Fecha Finalizacion: {camper['FECHA_FINALIZACION']}")
-                    encontrado = True
+                    if verificar_capacidad_ruta(ruta):
+                        camper['ESTADO'] = "ASIGNADO"
+                        camper['NOMBRE_RUTA'] = ruta['NOMBRE_RUTA']
+                        camper['EXPERTO_ENCARGADO'] = ruta['NOMBRE_TRAINER']
+                        camper['SALON_ENTRENAMIENTO'] = ruta['SALON']
+                        print(f"Camper {camper['NOMBRE']} {camper['APELLIDOS']} asignado a la ruta '{ruta['NOMBRE_RUTA']}' exitosamente.")
+                        guardar_json()
+                        print("\nDatos del Camper:")
+                        print(f"ID: {camper['ID']}")
+                        print(f"Nombre: {camper['NOMBRE']}")
+                        print(f"Apellidos: {camper['APELLIDOS']}")
+                        print(f"Estado: {camper['ESTADO']}")
+                        print(f"Nombre Ruta: {camper['NOMBRE_RUTA']}")
+                        print(f"Experto Encargado: {camper['EXPERTO_ENCARGADO']}")
+                        print(f"Salon Entrenamiento: {camper['SALON_ENTRENAMIENTO']}")
+                        print(f"Fecha Inicio: {camper['FECHA_INICIO']}")
+                        print(f"Fecha Finalizacion: {camper['FECHA_FINALIZACION']}")
+                        encontrado = True
+                    else:
+                        print(f"La ruta '{ruta['NOMBRE_RUTA']}' ha alcanzado su capacidad máxima. Asignación fallida.")
                 else:
-                    print(f"La ruta '{ruta['NOMBRE_RUTA']}' ha alcanzado su capacidad máxima. Asignación fallida.")
+                    print("Número de ruta no válido. Asignación fallida.")
             else:
-                print("Número de ruta no válido. Asignación fallida.")
-        else:
-            print("Verifique si el camper ya esta ASIGNADO o no esta APROBADO")
+                print("Verifique si el camper ya esta ASIGNADO o no esta APROBADO")
     if not encontrado:
         print(f"No se encontró un Camper con ID {buscar_id}.")
 
